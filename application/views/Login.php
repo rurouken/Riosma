@@ -26,7 +26,8 @@
                 <p class="form-title">
                     Sign In</p>
 
-                <form class="login" action="login/signin" method="post">
+                <!-- <form class="login" action="login/signin" method="post"> -->
+                <?php echo form_open('login/signin','class="login"'); ?>
                     <input type="text" name="email" placeholder="Username" />
                     <input type="password" name="password" placeholder="Password" />
                     <input type="submit" value="Sign In" class="btn btn-success btn-sm" />
@@ -45,7 +46,8 @@
                             </div>
                         </div>
                     </div>
-                </form>
+                <!-- </form> -->
+                <?php echo form_close(); ?>
             </div>
         </div>
     </div>
