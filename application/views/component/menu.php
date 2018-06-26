@@ -8,7 +8,7 @@
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Logo </span></a></li>
                                 <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Menu </span></a></li>
-                                <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Banner </span></a></li>
+                                <li class="sidebar-item"><a href="<?php echo base_url();?>banner/index" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Banner </span></a></li>
                             </ul>
                         </li>
                         <li class="sidebar-item"> 

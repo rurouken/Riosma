@@ -15,6 +15,8 @@
     <link href="<?php echo base_url()?>public/assets/libs/flot/css/float-chart.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo base_url()?>public/dist/css/style.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>public/dist/dropzone/basic.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>public/dist/dropzone/dropzone.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
